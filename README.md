@@ -27,7 +27,7 @@ Purpose: Testing the trained model on a real-world image.
 The optimal number of clusters (K) was determined using the Elbow Method by plotting Within-Cluster-Sum-of-Squares (WCSS) for different values of K.
 
 ### Elbow Curve
-![Elbow Curve]()
+![image](https://github.com/aronnaiqbal/220153_K-Means-Clustering/blob/2ea914373591e22144a4229a1a3ebe34b9a8e7c4/Screenshot/Screenshot%202026-06-15%20005730.png)
 
 ## Model Training
 
