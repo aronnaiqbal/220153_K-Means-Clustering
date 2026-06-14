@@ -48,7 +48,7 @@ The optimal number of clusters (K) was determined using the Elbow Method by plot
 The clusters were visualized using PCA to reduce the RGB feature space into 2 dimensions for better interpretation.
 
 ### Cluster Scatter Plot
-![Cluster Plot]()
+![image](https://github.com/aronnaiqbal/220153_K-Means-Clustering/blob/14215ecab2fa42ecb8a2a3ef18fc0706a9533044/Screenshot/Screenshot%202026-06-15%20005747.png)
 
 ## Image Compression Results
 
