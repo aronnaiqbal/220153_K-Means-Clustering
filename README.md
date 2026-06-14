@@ -61,7 +61,7 @@ The clusters were visualized using PCA to reduce the RGB feature space into 2 di
 
 ## Custom Prediction Output
 A DataFrame was generated showing RGB values and their assigned Cluster IDs for the custom image.
-![image]()
+![image](https://github.com/aronnaiqbal/220153_K-Means-Clustering/blob/82cbe2f9e0b54471d2525a600f5af5feedb46204/Screenshot/Screenshot%202026-06-15%20005833.png)
 
 ## Cluster Interpretation
 The K-Means algorithm identified 8 dominant colour groups in the training image. Each cluster centroid represents a representative RGB colour that summarizes a group of visually similar pixels. During image reconstruction, each pixel is replaced by its nearest centroid colour, reducing the total number of colours while preserving the overall visual structure of the image. This enables effective image compression while maintaining most visual details.
