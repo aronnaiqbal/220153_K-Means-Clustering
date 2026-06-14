@@ -53,7 +53,7 @@ The clusters were visualized using PCA to reduce the RGB feature space into 2 di
 ## Image Compression Results
 
 ### Standard Image
-![standard]()
+![image](https://github.com/aronnaiqbal/220153_K-Means-Clustering/blob/4b7ae71743ae84ae29cc1437a16476c2fc91372e/Screenshot/Screenshot%202026-06-15%20005937.png)
 
 ### Custom Image
 ![custom]()
