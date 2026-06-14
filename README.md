@@ -1,1 +1,72 @@
 # 220153_K-Means-Clustering
+
+
+## Project Overview
+This project implements the K-Means Clustering algorithm for Image Color Quantization using Python and Scikit-Learn. The model is trained on a standard image by clustering RGB pixel values into a smaller number of representative colors. The trained model is then applied to a custom image to perform real-world color compression.
+
+
+## Dataset
+
+### Standard Dataset
+File: `dataset/standard_image.jpeg`  
+Purpose: Training the K-Means model.
+
+### Custom Dataset
+File: `dataset/custom_image.jpeg`  
+Purpose: Testing the trained model on a real-world image.
+
+
+## Data Preprocessing
+- Image loaded using PIL
+- Image converted into NumPy array
+- RGB pixels extracted and reshaped into 2D format
+- Pixel values scaled (if used in model pipeline)
+
+
+## Elbow Method
+The optimal number of clusters (K) was determined using the Elbow Method by plotting Within-Cluster-Sum-of-Squares (WCSS) for different values of K.
+
+### Elbow Curve
+![Elbow Curve]()
+
+## Model Training
+
+### Algorithm
+- K-Means Clustering
+
+### Parameters
+- Number of Clusters (K): 8  
+- Random State: 42  
+- n_init: 10  
+
+### Saved Model
+- `kmeans_image_model.pkl`
+
+
+
+## Cluster Visualization
+The clusters were visualized using PCA to reduce the RGB feature space into 2 dimensions for better interpretation.
+
+### Cluster Scatter Plot
+![Cluster Plot]()
+
+## Image Compression Results
+
+### Standard Image
+![standard]()
+
+### Custom Image
+![custom]()
+
+
+## Custom Prediction Output
+A DataFrame was generated showing RGB values and their assigned Cluster IDs for the custom image.
+![image]()
+
+## Cluster Interpretation
+The K-Means algorithm identified 8 dominant colour groups in the training image. Each cluster centroid represents a representative RGB colour that summarizes a group of visually similar pixels. During image reconstruction, each pixel is replaced by its nearest centroid colour, reducing the total number of colours while preserving the overall visual structure of the image. This enables effective image compression while maintaining most visual details.
+
+---
+
+## Conclusion
+K-Means clustering effectively reduces image complexity by grouping similar pixel colours. The model successfully compresses images while preserving visual quality using only a limited number of representative colours.
