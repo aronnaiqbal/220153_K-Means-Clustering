@@ -42,8 +42,6 @@ The optimal number of clusters (K) was determined using the Elbow Method by plot
 ### Saved Model
 - `kmeans_image_model.pkl`
 
-
-
 ## Cluster Visualization
 The clusters were visualized using PCA to reduce the RGB feature space into 2 dimensions for better interpretation.
 
@@ -56,7 +54,7 @@ The clusters were visualized using PCA to reduce the RGB feature space into 2 di
 ![image](https://github.com/aronnaiqbal/220153_K-Means-Clustering/blob/4b7ae71743ae84ae29cc1437a16476c2fc91372e/Screenshot/Screenshot%202026-06-15%20005937.png)
 
 ### Custom Image
-![custom]()
+![image](https://github.com/aronnaiqbal/220153_K-Means-Clustering/blob/fe66b2e5b7d68ce55730d098fa5209168f3159f5/Screenshot/Screenshot%202026-06-15%20005947.png)
 
 
 ## Custom Prediction Output
@@ -66,7 +64,6 @@ A DataFrame was generated showing RGB values and their assigned Cluster IDs for 
 ## Cluster Interpretation
 The K-Means algorithm identified 8 dominant colour groups in the training image. Each cluster centroid represents a representative RGB colour that summarizes a group of visually similar pixels. During image reconstruction, each pixel is replaced by its nearest centroid colour, reducing the total number of colours while preserving the overall visual structure of the image. This enables effective image compression while maintaining most visual details.
 
----
 
 ## Conclusion
 K-Means clustering effectively reduces image complexity by grouping similar pixel colours. The model successfully compresses images while preserving visual quality using only a limited number of representative colours.
